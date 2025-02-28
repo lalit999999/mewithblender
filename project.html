@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Poppins", serif;
+            background-color: #201F1F;
+
+        }
+
+        /* navebar css */
+        .logo {
+            margin: 10px;
+            border-radius: 41px;
+            width: 40px;
+        }
+
+        .navbar {
+            box-shadow: 0 0 2px #E3C069;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #201F1F;
+        }
+
+        .nav ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+
+        .nav ul li {
+            padding: 0px 40px;
+        }
+
+        .nav ul>li>a {
+            text-decoration: none;
+            color: #8f8f8f;
+        }
+
+        .nav ul>li a:hover,
+        .nav ul>li a:active {
+            color: white;
+            transform: scale(1.1);
+            transition: 0.1s;
+        }
+
+        .login1 {
+            font-weight: 600;
+            padding: 10px 20px;
+            margin: 21px 20px;
+            background-color: transparent;
+            color: rgb(255, 248, 248);
+            border: 3px solid #E3C069;
+            border-radius: 6px;
+        }
+
+        .login2 {
+            font-weight: 600;
+            padding: 10px 20px;
+            margin: 21px 20px;
+            background-color: #E3C069;
+            color: rgb(0, 0, 0);
+            border: 3px solid #E3C069;
+            border-radius: 6px;
+        }
+
+        .upper-line {
+            width: 100vw;
+            height: 5px;
+            background-color: #E3C069;
+        }
+
+        /* projects css */
+       
+
+        
+    </style>
+</head>
+
+<body>
+    <h3 class="upper-line"></h3>
+    <section class="navbar">
+        <div class="logo">
+            <a href=""> <img class="logo" src="img/logo.jpg" alt=""></a>
+
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="index.html">About me</a></li>
+                <li><a href="index.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="signup">
+            <button class="login1">Log In</button>
+            <button class="login2">Sign up</button>
+        </div>
+
+    </section>
+    <section class="slidebar">
+        <div class="sliderr">
+            <div class="container">
+                <div class="top">
+    
+                    <img src="project/arrow.png" class="arrow left" alt="">
+                    <div class="frame">
+                        <div class="slider">
+                            <img src="project/project1.jpeg" class="image" alt="">
+                            <img src="project/project2.jpeg" class="image" alt="">
+                            <img src="project/project3.jpeg" class="image" alt="">
+                            <img src="project/project4.jpeg" class="image" alt="">
+                            <img src="project/project5.jpeg" class="image" alt="">
+                            <img src="project/project6.jpeg" class="image" alt="">
+                            <img src="project/project7.jpeg" class="image" alt="">
+                            
+                        </div>
+                    </div>
+                    <img src="project/arrow.png" class="arrow right" alt="">
+                </div>
+                <div class="bottom">
+                    <!-- <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div> -->
+    
+                </div>
+    
+            </div>
+        </div>
+        <script src="project.js"></script>
+
+    </section>
+    
+
+
+</body>
+
+</html>

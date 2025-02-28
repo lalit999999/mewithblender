@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: #201F1F;
+
+}
+
+
+/* navebar css */
+.logo {
+    margin: 10px;
+    border-radius: 41px;
+    width: 40px;
+}
+
+.navbar {
+    box-shadow: 0 0 2px #E3C069;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #201F1F;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0px 40px;
+}
+
+.nav ul>li>a {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.nav ul>li a:hover,
+.nav ul>li a:active {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.login1 {
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 21px 20px;
+    background-color: transparent;
+    color: rgb(255, 248, 248);
+    border: 3px solid #E3C069;
+    border-radius: 6px;
+}
+
+.login2 {
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 21px 20px;
+    background-color: #E3C069;
+    color: rgb(0, 0, 0);
+    border: 3px solid #E3C069;
+    border-radius: 6px;
+}
+
+.upper-line {
+    width: 100vw;
+    height: 5px;
+    background-color: #E3C069;
+}
+/* hero css */
+
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.left {
+    width: 40vw;
+    padding: 131px 75px;
+    margin: 11px;
+    background-color: #201F1F;
+}
+.left h1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    text-shadow: 0 0 10px #E3C069;
+
+}
+
+.left h1 {
+    font-size: 61px;
+    color: #ffffff;
+    font-weight: revert;
+
+}
+
+.left p {
+    color: #cbcbcb;
+    width: 52vw;
+    font-weight: lighter;
+}
+
+.button1 {
+    padding: 15px 34px;
+    background-color: #E3C069;
+    color: #3a3a3a;
+    border: 0 solid black;
+    border-radius: 15px;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 42px 0;
+
+}
+
+.button1:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid white;
+
+
+}
+
+.right1 {
+    width: 30vw;
+    border: 2px solid #E3C069;
+    margin-top: 20px;
+}
+/* team css */
+
+
+
+.myimage {
+    margin: 20px;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 60px;
+}
+
+.intro1 {
+    width: 20px;
+}
+
+.main {
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #cbcbcb;
+    background-color: #363535;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team>h1 {
+    font-size: 60px;
+    color: #E3C069;
+    font-weight: 800;
+    text-align: center;
+}
+
+.intro1 {
+    width: 20vw;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.intro1 p {
+    width: 29vw;
+}
+
+.member {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
