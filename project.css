@@ -1,3 +1,5 @@
+ 
+
 
 /* projects >>>> slidber  */
   
@@ -15,7 +17,6 @@
     flex-direction: column;
     gap: 50px;
     align-items: center;
-    /* justify-content: center; */
 }
 .top{
     display: flex;
@@ -64,4 +65,205 @@
     height: 15px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
+}* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: #201F1F;
+}
+
+
+/* navebar css */
+.logo {
+    margin: 10px;
+    border-radius: 41px;
+    width: 40px;
+}
+
+.navbar {
+    box-shadow: 0 0 2px #E3C069;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #201F1F;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0px 40px;
+}
+
+.nav ul>li>a {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.nav ul>li a:hover,
+.nav ul>li a:active {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+
+.fa-solid {
+    display: none;
+    visibility: hidden;
+}
+
+.signup ul {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+
+}
+
+.login1 {
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 21px 20px;
+    background-color: transparent;
+    color: rgb(255, 248, 248);
+    border: 3px solid #E3C069;
+    border-radius: 6px;
+}
+
+.login2 {
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 21px 20px;
+    background-color: #E3C069;
+    color: rgb(0, 0, 0);
+    border: 3px solid #E3C069;
+    border-radius: 6px;
+}
+
+.upper-line {
+    display: flex;
+    width: 115vw;
+    height: 5px;
+    background-color: #E3C069;
+}
+
+ 
+
+ 
+
+.hide {
+    display: block;
+}
+
+/* media css */
+
+
+
+
+/* RESONSVE  */
+/* Responsive Styles for 430px Width */
+@media (max-width: 435px) {
+
+    .signup ul li {
+        padding-left: 5px;
+    }
+
+
+
+
+    .login1 {
+        width: 10px;
+    }
+
+    .navbar {
+        width: 115vw;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .fa-solid {
+        color: #E3C069;
+        font-size: 30px;
+        display: inline;
+        visibility: visible;
+        margin-top: 5px;
+        margin-left: 7px;
+    }
+
+    .bar a {
+        color: #E3C069;
+        font-size: 20px;
+        text-decoration: none;
+
+
+        align-items: center;
+
+
+    }
+
+    .bar {
+        background-color: #1b1a1a;
+        display: flex;
+        width: 115VW;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .fa-solid div ul {
+        background-color: #333333;
+        width: 300px;
+        list-style: none;
+        position: relative;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        color: white;
+
+    }
+
+
+    .nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav ul li {
+        padding: 5px 0;
+    }
+
+    .signup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login1,
+    .login2 {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+   
+
+     
+ 
 }

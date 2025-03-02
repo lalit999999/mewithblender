@@ -7,84 +7,8 @@
     <title>project</title>
     <link rel="stylesheet" href="project.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: "Poppins", serif;
-            background-color: #201F1F;
-
-        }
-
-        /* navebar css */
-        .logo {
-            margin: 10px;
-            border-radius: 41px;
-            width: 40px;
-        }
-
-        .navbar {
-            box-shadow: 0 0 2px #E3C069;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #201F1F;
-        }
-
-        .nav ul {
-            display: flex;
-            flex-wrap: wrap;
-
-            justify-content: center;
-            align-items: center;
-            list-style: none;
-        }
-
-        .nav ul li {
-            padding: 0px 40px;
-        }
-
-        .nav ul>li>a {
-            text-decoration: none;
-            color: #8f8f8f;
-        }
-
-        .nav ul>li a:hover,
-        .nav ul>li a:active {
-            color: white;
-            transform: scale(1.1);
-            transition: 0.1s;
-        }
-
-        .login1 {
-            font-weight: 600;
-            padding: 10px 20px;
-            margin: 21px 20px;
-            background-color: transparent;
-            color: rgb(255, 248, 248);
-            border: 3px solid #E3C069;
-            border-radius: 6px;
-        }
-
-        .login2 {
-            font-weight: 600;
-            padding: 10px 20px;
-            margin: 21px 20px;
-            background-color: #E3C069;
-            color: rgb(0, 0, 0);
-            border: 3px solid #E3C069;
-            border-radius: 6px;
-        }
-
-        .upper-line {
-            width: 100vw;
-            height: 5px;
-            background-color: #E3C069;
-        }
-
+        
+        
         /* projects css */
        
 
@@ -92,7 +16,7 @@
     </style>
 </head>
 
-<body>
+<body onload="set()">
     <h3 class="upper-line"></h3>
     <section class="navbar">
         <div class="logo">
@@ -110,11 +34,20 @@
             </ul>
         </div>
         <div class="signup">
-            <button class="login1">Log In</button>
-            <button class="login2">Sign up</button>
+            <ul>
+                <li><button class="login1">Log In</button></li>
+                <li><button class="login2">Sign up</button></li>
+                <li>
+                    <i class="fa-solid fa-bars" id="fa-solid">
+
+                    </i>
+                </li>
+            </ul>
+
         </div>
 
     </section>
+  
     <section class="slidebar">
         <div class="sliderr">
             <div class="container">
@@ -143,7 +76,7 @@
                     <div class="button"></div>
                     <div class="button"></div>
                     <div class="button"></div> -->
-    
+
                 </div>
     
             </div>
