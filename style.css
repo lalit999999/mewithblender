@@ -4,6 +4,7 @@
 }
 
 body {
+    overflow-x: hidden;
     font-family: "Poppins", serif;
     background-color: #201F1F;
 }

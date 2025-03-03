@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* body{
+            background-color: #2b3035 sign up
+            #495057 border
+
+        } */
+        body {
+
+
+            background-color: #212529;
+
+        }
+
+        .hero {
+            margin-top: 250px;
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .left {
+            width: 35vw;
+        }
+
+        .left h1 {
+            font-size: 80px;
+            color: #E3C069;
+            justify-content: left;
+        }
+
+        .left p {
+            font-size: 40px;
+            color: #495057;
+            justify-content: left;
+        }
+
+        .right {
+            background-color: #2b3035;
+            width: 35vw;
+            color: #495057;
+            min-height: 70vh;
+            margin-left: 50px;
+            border-radius: 20px;
+            border: 1px solid #495057;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .right>h1{
+            font-size: 50px;
+            color: #E3C069;
+            text-align: center;
+        }
+        .logo{
+            width: 10vw;
+            border: 1px solid #495057;
+            border-radius: 50%;
+            margin-top: 10px;
+
+        }
+
+        .input input {
+            text-align: center;
+
+            width: 30vw;
+            height: 10vh;
+            margin: 8px;
+            border: 1px solid #495057;
+            border-radius: 20px;
+            background-color: #212529;
+            color: #E3C069;
+            FONT-SIZE: 25PX;
+
+        }
+
+        .bottom h3 {
+            width: 30vw;
+            margin: 20px 20px;
+            height: 1px;
+            background-color: #495057;
+
+        }
+
+        .bottom p {
+            width: 30vw;
+        }
+
+        #sign-up {
+            width: 30vw;
+            height: 10vh;
+            border: 1px solid #495057;
+            border-radius: 20px;
+            background-color: #E3C069;
+            color: rgb(0, 0, 0);
+            FONT-SIZE: 25PX;
+        }
+        #sign-up:hover{
+            background-color: #6f5f35;
+             
+        }
+
+        .button {
+            font-size: 32px;
+            color: white;
+            margin: 20px 0;
+        }
+        .input input:enabled{
+                box-shadow: 0 0 20px #E3C069;
+            }
+
+
+        @media (max-width: 435px) {
+            .hero {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: start;
+                align-items: center;
+            }
+
+            .left {
+                margin-left: 80px;
+                width: 430px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+
+            .input input {
+
+                padding: 30px 40px;
+
+
+                border: 1px solid #495057;
+                border-radius: 20px;
+                background-color: #212529;
+                color: white;
+                FONT-SIZE: 25PX;
+                WIDTH: 280PX;
+            }
+           
+            .input input:first-child {
+                margin-top: 50px;
+            }
+
+            .right {
+                justify-content: start;
+                width: 390px;
+                min-height: 500px;
+                margin-top: 30px;
+                margin-left: 80px;
+            }
+
+            #sign-up {
+
+                padding: 20px 110px;
+
+                border: 1px solid #495057;
+                border-radius: 10px;
+                background-color: #E3C069;
+                color: white;
+                FONT-SIZE: 25PX;
+            }
+
+            #sign-up:hover {
+                background-color: #2b3035;
+                color: #1c83ea;
+            }
+
+            .bottom h3 {
+                width: 350px;
+            }
+            .bottom p {
+                width: 350px;
+                margin-left: 30px;
+                color: white;
+            }
+
+
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+
+
+        <div class="left">
+            <h1>Vertically centered hero sign-up form</h1>
+            <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
+                validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+        <div class="right">
+            <img src="logo.jpg" class="logo" alt="">
+            <h1>Sign UP</h1>
+            <div class="input">
+
+                <input type="email" name="mail" placeholder="Email Address" id="mail">
+                <br>
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="button">
+                <input type="checkbox"><span>Remember Me</span>
+
+            </div>
+            <button id="sign-up">sign-up</button>
+            <div class="bottom">
+                <h3></h3>
+                <p>By clicking Sign up, you agree to the terms of use.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
